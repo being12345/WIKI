@@ -22,7 +22,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello!" + testHello;
+        return "Hell!" + testHello;
     }
 
     @PostMapping("/hello/post")

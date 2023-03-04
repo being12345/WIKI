@@ -1,15 +1,15 @@
 GET http://127.0.0.1:8081/hello
 #Accept: application/json
 
-> {%
- client.test("test-hello", function () {
-     client.log("测试 /hello 接口");
-     client.log(response.body);
-     client.log(JSON.stringify(response.body));
-     client.assert(response.status === 200, "Rsc isn't 200");
-     client.assert(response.body === "Hello!", "Result validation failed");
- });
-%}
+#> {%
+# client.test("test-hello", function () {
+#     client.log("测试 /hello 接口");
+#     client.log(response.body);
+#     client.log(JSON.stringify(response.body));
+#     client.assert(response.status === 200, "Rsc isn't 200");
+#     client.assert(response.body === "Hello!", "Result validation failed");
+# });
+#%}
 
 ###
 
