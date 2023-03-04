@@ -207,3 +207,9 @@ Identify and stop the process that's listening on port 8080 or configure this ap
                 [32m                  [0;39m set up successful
 2023-03-04 20:52:16.076 INFO  com.example.demo.config.DemoApplication           :20  
                 [32m                  [0;39m address: 	http://127.0.0.1:8081
+2023-03-04 20:56:20.620 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-04 20:56:20.620 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-03-04 20:56:20.621 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 0 ms
