@@ -1,0 +1,1 @@
+1. scanner only scan children's packages auto, add ComponentScan to add package![img.png](img.png)
